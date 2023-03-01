@@ -1,4 +1,4 @@
-// Output for this code is attached in Pic 1 in main Readme.
+// Output for this code is attached in Pic : RowLayout in main Readme.
 
 package com.example.helloworld.utkarsh
 
