@@ -1,5 +1,5 @@
 /* Unlike XML, compose can't keep track of the states. Hence we use remember function.
-Output of this code is in Pic1 in main Readme.     */
+Output of this code is in Video1 in main Readme.     */
 
 
 package com.example.helloworld.utkarsh
