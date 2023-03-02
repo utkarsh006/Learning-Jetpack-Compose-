@@ -6,3 +6,4 @@
   -  **painter: Painter** (Painter means to take images from the drawable)
 
 - Whenever we fetch any image from PainterResource it appears **black by default**, so use ```tint = Color.Unspecified```
+- Use ```IconButton Composable method``` to apply clickable links on an icon.
