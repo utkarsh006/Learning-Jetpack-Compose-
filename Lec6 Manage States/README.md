@@ -1,6 +1,4 @@
 <details><summary><h4> Video1 </h4></summary>
-  
-  
 
 https://user-images.githubusercontent.com/94545831/222369968-a746ccbc-66c5-484c-a346-3cdc647e3263.mp4
 
@@ -36,3 +34,10 @@ If, val (counter,setCounter) = remember{ mutableStateOf(0)}
         
   SetCounter updates the values of Counter.
  ```
+<br>
+
+<details><summary><h4> Video2 </h4></summary>
+
+https://user-images.githubusercontent.com/94545831/222380935-94e17b47-ccb2-4700-a392-ae9490a337d1.mp4
+
+</details>
