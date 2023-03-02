@@ -16,15 +16,16 @@ fun Button(
 package com.example.helloworld.utkarsh
 
 import android.widget.Toast
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Button
+import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 
@@ -38,8 +39,16 @@ fun ButtonLayout() {
             Toast.makeText(context,"Simple Button", Toast.LENGTH_SHORT).show()
         },
 
-            modifier = Modifier.fillMaxWidth().padding(15.dp)
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(15.dp),
+            elevation = ButtonDefaults.elevation(defaultElevation = 0.dp),
+            shape = RoundedCornerShape(20.dp),
+            border = BorderStroke(width = 5.dp, color = Color.Yellow),
+            colors = ButtonDefaults.buttonColors(backgroundColor = Color.Black, contentColor = Color.White),
+            contentPadding = PaddingValues(vertical = 40.dp)
             )
+
         {
             Text(text = "Button Here")
         }
